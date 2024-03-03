@@ -1,0 +1,29 @@
+ck (main)
+  409  $ cd ..
+  410  User@WINDOWS-2QDB9B9 MINGW64 ~
+  411  $ pwd
+  412  /c/Users/User
+  413  User@WINDOWS-2QDB9B9 MINGW64 ~
+  414  $ 5
+  415  bash: 5: command not found
+  416  User@WINDOWS-2QDB9B9 MINGW64 ~
+  417  $ pwsd
+  418  bash: pwsd: command not found
+  419  User@WINDOWS-2QDB9B9 MINGW64 ~
+  420  $ pwd
+  421  /c/Users/User
+  422  User@WINDOWS-2QDB9B9 MINGW64 ~
+  423  $ mkdir fast
+  424  User@WINDOWS-2QDB9B9 MINGW64 ~
+  425  $ cd fast
+  426  User@WINDOWS-2QDB9B9 MINGW64 ~/fast
+  427  $ echo "# fast" >> README.md
+  428  User@WINDOWS-2QDB9B9 MINGW64 ~/fast
+  429  $ git init
+  430  Initialized empty Git repository in C:/Users/User/fast/.git/
+  431  User@WINDOWS-2QDB9B9 MINGW64 ~/fast (master)
+  432  $ git add README.md
+  433  warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+  434  User@WINDOWS-2QDB9B9 MINGW64 ~/fast (master)
+  435  $ git commit -m "first commit"
+  436  [master (root-commit
